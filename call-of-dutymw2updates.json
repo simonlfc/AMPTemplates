@@ -64,7 +64,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "powershell.exe",
-        "UpdateSourceArgs": "-NoProfile -Command \"Set-Location -Path '{{$FullBaseDir}}'; & ./iw4x-launcher.exe --update --no-self-update --force --path=\\\"{{$FullBaseDir}}\\\"\"",
+        "UpdateSourceArgs": "-NoProfile -Command \"Set-Location -Path '{{$FullBaseDir}}'; & ./iw4x-launcher.exe --game-exe \"\"  --path=\\\"{{$FullBaseDir}}\\\"\"",
         "SkipOnFailure": false
     },
     {
@@ -72,7 +72,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd ./call-of-dutymw2/10190 && chmod +x iw4x-launcher && ./iw4x-launcher --update --no-self-update --force --path=\\\"{{$FullBaseDir}}\\\"\"",
+        "UpdateSourceArgs": "-c \"cd ./call-of-dutymw2/10190 && chmod +x iw4x-launcher && ./iw4x-launcher --game-exe \"\"  --path=\\\"{{$FullBaseDir}}\\\"\"",
         "SkipOnFailure": false
     },
     {
